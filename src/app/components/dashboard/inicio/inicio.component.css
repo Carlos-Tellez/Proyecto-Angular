@@ -1,0 +1,21 @@
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+.mat-toolbar {
+    background:#ff40808d;
+    color: #f3f3f3;
+}
+
+.example-card {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 10px;
+    max-width: 800px;
+}
+
+.example-header-image {
+    background-image: url('https://cdn-icons-png.flaticon.com/512/2314/2314797.png');
+    background-size: cover;
+}
+

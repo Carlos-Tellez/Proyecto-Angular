@@ -1,0 +1,6 @@
+export interface Usuario{
+    usuario : string,
+    correo : string,
+    nombre : string,
+    sexo : string,
+}

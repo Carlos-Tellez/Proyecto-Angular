@@ -1,0 +1,18 @@
+[
+    {
+        "nombre": "Inicio",
+        "redirect": "/dashboard"
+    },
+    {
+        "nombre": "Lista de Alumnos",
+        "redirect": "/dashboard/usuarios"
+    },
+    {
+        "nombre": "Actividades",
+        "redirect": "/dashboard/notas"
+    },
+    {
+        "nombre": "Asignaturas",
+        "redirect": "/dashboard/clases"
+    }
+]
