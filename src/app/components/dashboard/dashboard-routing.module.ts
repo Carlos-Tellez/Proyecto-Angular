@@ -7,6 +7,8 @@ import { NotasComponent } from './notas/notas.component';
 import { ClasesComponent } from './clases/clases.component';
 import { CrearUsuarioComponent } from './usuarios/crear-usuario/crear-usuario.component';
 import { VerUsuarioComponent } from './usuarios/ver-usuario/ver-usuario.component';
+import { VerClaseComponent } from './clases/ver-clase/ver-clase.component';
+import { AgregarEditarClaseComponent } from './clases/agregar-editar-clase/agregar-editar-clase.component';
 
 const routes: Routes = [
   { path: '', component: DashboardComponent, children: [
@@ -16,6 +18,11 @@ const routes: Routes = [
     { path: 'clases', component: ClasesComponent },
     { path: 'crear-usuario', component: CrearUsuarioComponent },
     { path: 'ver-usuario', component: VerUsuarioComponent },
+    { path: 'ver-clase', component: VerClaseComponent },
+    { path: 'agregar-clase', component: AgregarEditarClaseComponent },
+    { path: 'editar-clase/:id', component: AgregarEditarClaseComponent },
+    { path: '**', component: InicioComponent }
+    
   ]}
 ];
 

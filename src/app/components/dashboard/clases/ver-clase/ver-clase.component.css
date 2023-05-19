@@ -1,0 +1,14 @@
+.example-card {
+    margin-left: 300px;
+    margin-right: 300px;
+    max-width: 400px;
+    margin-bottom: 8px;
+    margin-top: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+.mat-toolbar {
+    background:#7181df62;
+    color: #f3f3f3;
+}

@@ -11,6 +11,8 @@ import { NotasComponent } from './notas/notas.component';
 import { ClasesComponent } from './clases/clases.component';
 import { CrearUsuarioComponent } from './usuarios/crear-usuario/crear-usuario.component';
 import { VerUsuarioComponent } from './usuarios/ver-usuario/ver-usuario.component';
+import { VerClaseComponent } from './clases/ver-clase/ver-clase.component';
+import { AgregarEditarClaseComponent } from './clases/agregar-editar-clase/agregar-editar-clase.component';
 
 
 @NgModule({
@@ -22,7 +24,9 @@ import { VerUsuarioComponent } from './usuarios/ver-usuario/ver-usuario.componen
     NotasComponent,
     ClasesComponent,
     CrearUsuarioComponent,
-    VerUsuarioComponent
+    VerUsuarioComponent,
+    VerClaseComponent,
+    AgregarEditarClaseComponent
   ],
   imports: [
     CommonModule,
